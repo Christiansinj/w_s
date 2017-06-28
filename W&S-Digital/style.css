@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #CCCCCC;
+}
+#container{
+	 display: grid ;
+}
+/*NAV1*/
+.nav1{
+	background-color: #CCCCCC;
+	padding: 5px 20px;			/*bg dispaly flex-start*/
+	display: flex;
+	justify-content: flex-start;
+}
+.nav1 > a {
+
+	color: white;				/*couleur et style du a*/
+	text-decoration: none;
+}
+	/*NAV2*/
+.nav2{
+	background-color: white;
+	padding: 25px 28px;
+	display: flex;				/*espacement du texte,hauteur-largeur,espacement-delanav*/
+	justify-content: space-around;
+}
+.nav2 > a {
+		text-decoration: none;
+		color: #CCCCCC;			/*decoration de texte et taille*/
+		font-size: 30px;
+}
+	/*HEADER*/
+.header{
+	background-image:url("image/image_1.jpg");
+	height: 100vh;
+	background-size: cover;
+		/*header taille de la div*+ images de fond de la div/
+}
+
+.image1{
+	max-width: 100%;
+	height: auto; 
+	/*hauteur et largeur de l'image*/
+}
+.section1
+{
+	background-color: #CCCCCC; /*couleur de fond de la div*/
+}
+.section1 > p {
+	font-size: 30px;
+	flex-direction: column;
+	align-items: flex-start;	/*style du texte section1*/
+	line-height: 2em;
+	color: white;
+}
+
+.video1{
+	 display: flex;
+	 justify-content: flex-end;/*style de la video*/
+}
+
+.section2 > p{
+	color: white;
+	font-size: 30px;
+	display: flex;
+	justify-content:space-around;
+}
+
+ .images2{
+ 	height: 200px;
+ 	
+ }
